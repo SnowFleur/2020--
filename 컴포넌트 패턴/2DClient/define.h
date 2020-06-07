@@ -1,0 +1,5 @@
+#pragma once
+
+enum CONTROLLER_DIRECTION {
+    DIR_LEFT = 0, DIR_UP, DIR_DOWN, DIR_RIGHT
+};

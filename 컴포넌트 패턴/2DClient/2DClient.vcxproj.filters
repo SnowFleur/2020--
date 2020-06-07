@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectGraphicsComponent.cpp">
+      <Filter>GraphicsComponent\GameObjectGraphicsComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInputComponent.cpp">
+      <Filter>InputComponent\PlayerInputComponent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>InputComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>GraphicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectGraphicsComponent.h">
+      <Filter>GraphicsComponent\GameObjectGraphicsComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInputComponent.h">
+      <Filter>InputComponent\PlayerInputComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="board.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="pawn.bmp">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{e8a87d6a-5c95-44d6-9540-cc5f4a67f994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{80a9b08d-14e6-4e54-8fb6-c11cb4fd62f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{ca132661-2a51-4409-95ab-96f232782585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{f0279c70-22fd-4293-b62c-85fa6550ce45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputComponent">
+      <UniqueIdentifier>{9e047b93-fd76-48f9-ae88-56928605826f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{7c1f8dd3-f79a-41af-b873-b574c2b791ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsComponent">
+      <UniqueIdentifier>{60d62414-96a7-4a32-ae37-735ec329c063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{a300b3e1-5015-49b3-88e4-3e6857dd564a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{f2ead306-4b5c-4ca3-9eba-91fa38adff86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{bcfec074-b248-44a9-9a6b-1666848bc8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsComponent\GameObjectGraphicsComponent">
+      <UniqueIdentifier>{d6509347-171b-4a55-a7b0-a6276598ac20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputComponent\PlayerInputComponent">
+      <UniqueIdentifier>{34ce440e-528b-4a27-b07f-56a0f8c252fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
