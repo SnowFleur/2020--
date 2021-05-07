@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SOLID 원칙", "Design Pattern C++(2021).vcxproj", "{AA759760-344A-4796-9A23-F1CF43CF82EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "생성 패턴", "생성 패턴", "{86F6DCB1-2FE7-46CC-AC87-70C70FB0EC55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "행동 패턴", "행동 패턴", "{E973E4BD-EF3B-4EAB-B517-BAFE201C97CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "구조 패턴", "구조 패턴", "{29EB08E8-D6A2-4299-89AE-F649D02AA8DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "기타", "기타", "{DC315A0F-5718-4771-8D7A-31D5B1431B62}"
+	ProjectSection(SolutionItems) = preProject
+		생성 패턴\팩토리 패턴\팩토리 패턴\여러가지 문법.cpp = 생성 패턴\팩토리 패턴\팩토리 패턴\여러가지 문법.cpp
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "팩토리 패턴", "생성 패턴\팩토리 패턴\팩토리 패턴.vcxproj", "{6334FE0B-9D6C-48B8-8D7F-9CB550244545}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "관찰자 패턴", "행동 패턴\관찰자 패턴\관찰자 패턴.vcxproj", "{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Debug|x64.ActiveCfg = Debug|x64
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Debug|x64.Build.0 = Debug|x64
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Debug|x86.Build.0 = Debug|Win32
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Release|x64.ActiveCfg = Release|x64
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Release|x64.Build.0 = Release|x64
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Release|x86.ActiveCfg = Release|Win32
+		{AA759760-344A-4796-9A23-F1CF43CF82EB}.Release|x86.Build.0 = Release|Win32
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Debug|x64.ActiveCfg = Debug|x64
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Debug|x64.Build.0 = Debug|x64
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Debug|x86.ActiveCfg = Debug|Win32
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Debug|x86.Build.0 = Debug|Win32
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Release|x64.ActiveCfg = Release|x64
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Release|x64.Build.0 = Release|x64
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Release|x86.ActiveCfg = Release|Win32
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545}.Release|x86.Build.0 = Release|Win32
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Debug|x64.ActiveCfg = Debug|x64
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Debug|x64.Build.0 = Debug|x64
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Debug|x86.Build.0 = Debug|Win32
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Release|x64.ActiveCfg = Release|x64
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Release|x64.Build.0 = Release|x64
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Release|x86.ActiveCfg = Release|Win32
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6334FE0B-9D6C-48B8-8D7F-9CB550244545} = {86F6DCB1-2FE7-46CC-AC87-70C70FB0EC55}
+		{B5CDEEFA-86FA-4CD1-AC94-AB00EDD7D2DF} = {E973E4BD-EF3B-4EAB-B517-BAFE201C97CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {299344CD-C254-4746-B2D2-EA3EC6720A9B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SOLID\(D)의존성 역전 법칙.cpp" />
+    <ClCompile Include="SOLID\(I)인터페이스  분리 원칙.cpp" />
+    <ClCompile Include="SOLID\(L)리스코프 치환 원칙.cpp" />
+    <ClCompile Include="SOLID\(O)열림-닫힘 원칙.cpp" />
+    <ClCompile Include="SOLID\(S)단일 책임 원칙.cpp" />
+  </ItemGroup>
+</Project>
